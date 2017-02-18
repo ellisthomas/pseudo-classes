@@ -1,0 +1,14 @@
+.block {
+	list-style: none;
+	display: inline-block;
+}
+
+.inline {
+	display: block;
+	border: 1px solid red;
+	margin: 25px 25px;
+}
+
+.n-child section:nth-child(2n + 1) {
+	border: 1px solid purple;
+}
